@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/favicon-32x32.png" />
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="css/styles.production.css" />
+   <title>My Projects</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <a href="index.html"><img src="img/hakeem-logo.png" width="60px" height="60px"
+        alt="Personal logo of Hakeem" class="page-header__item"></a>
+    <nav class=" main navigation page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="work-section">
+    <h1 id="work-heading">My Projects</h1>
+    <div class="project-list">
+      <div class="card project-list__item">
+        <br><br>
+        <img src="img/screenshot-angular.png" alt="screenshot of myFlix app" style="width:70%">
+        <div class="container">
+          <h2><span class="heading">Anglar App project - myFlix</span></h2>
+          <p>myFlix is a web app developed using the MERN stack, that provides users with access to information about movies, 
+             directors and genres.
+          <br>
+             It is a RESTful API using Node.js and Express, that interacts with a non-relational database (MongoDB). 
+             The API can be accessed via commonly used HTTP methods like GET or POST. 
+             To retrieve data from and store data in the database, CRUD methods are used. 
+             The API provides movie information in JSON format.
+             Users are able to create an account, update their personal profile(data) and also create a list of fasvorite movies.
+          </p>
+          <a href="https://github.com/haksuly1/myFlix-angular-client" target="_blank">Code</a> 
+          <a href="https://haksuly1.github.io/myFlix-Angular-client/welcome/" target="_blank">See App Welcome Page</a>
+          <a href="https://haksuly1movieapp.herokuapp.com/" target="_blank">Heroku</a>
+        </div>
+      </div>
+
+      <div class=" card project-list__item">
+        <br><br>
+        <img src="img/screenshot-myflix.png" alt="screenshot of quiz-app" style="width:70%">
+        <div class="container">
+          <h2><span class="heading">myFlix-client Movie App - React Application</span></h2>
+            <p>This is the React version of the Angular App project. It is also a web app that provides 
+               users with access to information about movies, directors, and genres. Users can sign up, 
+               update personal data, and create a list of favorites. 
+               Server-side and client-side were developed using the MERN stack.
+          </p>
+          <a href="https://github.com/haksuly1/myFlix-client" target="_blank">See project on GitHub</a> 
+          <br>
+          <a href="https://haksuly1movieapp.herokuapp.com/" target="_blank">App on Heroku</a>
+          <br>
+        <a href="https://haksuly1.github.io/portfolio/study.html" target="_blank" rel="noopener noreferrer">Case Study</a>
+        </div>
+        <br><br>
+      </div>
+
+      <div class="card project-list__item">
+        <br><br>
+        <img src="img/homescreen.png" alt="screenshot of todo app" style="width:70%">
+        <div class="container">
+          <h2><span class="heading">chatApp - Native Application</span></h2>
+          <p> The project is a React Native Project. This project is a chat app for mobile devices using React Native.
+              The app provides users with a chat interface and options to share images and their location.
+          </p>
+          <a href="https://github.com/haksuly1/chatApp" target="_blank">See project on GitHub</a> 
+        </div>
+        <br><br>
+      </div>
+
+      <div class="card project-list__item">
+        <br><br>
+        <img src="img/screenshot-meetapp.png" alt="screenshot of pokedex app" style="width:70%">
+        <div class="container">
+          <h2><span class="heading">MeetApp</span></h2>
+          <p>This is a serverless, progressive web app (PWA) built with React using a test-driven development 
+             technique (TDD). The app uses the Meetup API to fetch upcoming events for a selected city, 
+             and OAuth2 authentication flow. For the authorization server it uses AWS Lambda. 
+             Alerts for users are created by using an OOP approach. A service worker allows the app to work offline. 
+             The recharts library is used to visualize data with a scatter graph and a pie chart.
+          </p>
+          <a href="https://github.com/haksuly1/meetApp" target="_blank">See project on GitHub</a>
+          <br>
+          <a href="https://github.com/haksuly1/meetApp" target="_blank">Demo</a>
+        </div>
+        <br><br>
+      </div>
+
+      <div class="card project-list__item">
+        <br><br>
+        <img src="img/screenshot-pokemon.jpg" alt="screenshot of meetup app" style="width:70%">
+        <div class="container">
+          <h2><span class="heading">Pokemon-app</span></h2>
+          <p>This is a small web app built with Javascript, HTML, CSS, jQuery, and Bootstrap framework. 
+             The code has been formatted according to ESLint rules.</p>
+             This is a simple Pokédex application built with Javascript, HTML, CSS, and Bootstrap. 
+             Users can search through a collection of Pokémon that is loading from an external source(API). 
+             Images and information about the specific Pokémon can be displayed in a modal by clicking on a Pokémons name.
+          </p>
+          <a href="https://github.com/haksuly1/pokemon-app" target="_blank">See project on GitHub</a>
+        </div>
+        <br><br>
+      </div>
+
+      <div class="card project-list__item">
+        <br><br>
+        <img src="img/screenshot-app.png" alt="screenshot of chat app" style="width:70%">
+        <div class="container">
+          <h2><span class="heading">to-do-list-app</span></h2>
+          <p>A basic single-page app to practice Vue.js framework in the building of basic applications. 
+             This is a basic application that allows addition, deletion and striking out of items.
+             It was built using JavaScript & HTML. The App allow users to input a number of items and cancel 
+             them out as it pleases them.
+          </p>
+          <a href="https://github.com/haksuly1/to-do-list-app" target="_blank">See project on GithHub</a> 
+        </div>
+        <br><br>
+      </div>
+    </div>
+  </section>
+<br><br>
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+     <a href="https://github.com/haksuly1/"> <img src="img/github_icon.svg" target="_blank" alt="github"></a>
+      <a href="https://linkedin.com/in/hakeem-sulyman-a34b6b86/"> <img src="img/linkedin_icon.svg" target="_blank"
+        alt="Linkedin"></a>
+       <a href="https://twitter.com/haksuly1/"> <img src="img/twitter_icon.svg" target="_blank" alt="Twitter"></a>
+      <a href="https://medium.com/@haksuly1"> <img src="img/medium_icon.svg" target="_blank" alt="Medium"></a>
+    </div>
+  </footer>
+  <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
