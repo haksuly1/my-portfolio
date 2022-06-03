@@ -6,6 +6,13 @@
   padding: 0;
 }
 
+li {
+  list-style: none;
+  ;
+}
+
+
+
 /* Base Styles */
 body {
   background: #fceff0;
@@ -845,6 +852,7 @@ hr {
   }
 
   .nav-item {
+    display: flex;
     margin: 16px 0;
   }
 
