@@ -65,6 +65,10 @@ a {
   text-decoration: none;
 }
 
+a:active {
+  color: #ff9800;
+}
+
 #main h1 {
   text-transform: uppercase;
 }
@@ -72,12 +76,15 @@ a {
 .btn {
   display: inline-block;
   margin: 0.5em 0;
-  padding: 1em 2em;
-  background: var(--primary-color);
-  color: var(--primary-font-color);
-  border: 1px solid var(--primary-font-color);
+  padding: 15px;
+  background: #e35760;
+  color: #fff;
+  border-radius: 5px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
   text-decoration: none;
   text-transform: uppercase;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
 
@@ -92,17 +99,12 @@ a {
 /* Mobile Styles */
 
 /* Header Showcase */
-
-
-
 #showcase {
   min-height: 450px;
   color: black;
   background-color: white;
   text-align: center;
 }
-
-
 
 .box-one {
   min-height: 60px;
@@ -631,22 +633,7 @@ nav {
   text-align: center;
 }
 
-.page-header {
-  display: flex;
-  width: 100%;
-  padding: 20px;
-  background-color: lightgreen;
-  color: white;
-}
 
-.page-header__item {
-  flex: 0 1 80px;
-}
-
-.page-header__item:last-child {
-  flex-grow: 1;
-  text-align: right;
-}
 
 .profile__portrait {
   float: left;
@@ -655,12 +642,6 @@ nav {
   height: auto;
   border-radius: 50%;
 }
-
-.page-header__item {
-  flex: 0 1 80px;
-}
-
-
 
 
 /* Small tablet styles */
@@ -944,3 +925,44 @@ hr {
 
   }
 }
+
+/*
+button {
+  /* to create links that look like buttons */
+/*
+  border: none;
+  */
+/* overwrites browser defaults and resets the border */
+/*
+  display: inline-block;
+  font-family: inherit;
+  background-color: #009688;
+  color: #f1f1f1;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  */
+/* last number is opacity. 0=transparent, 1=complete opacity */
+/*
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.5s opacity;
+  -o-transition: 0.5s opacity;
+  transition: 0.5s opacity;
+}
+
+
+.page-header__item {
+  flex: 0 1 80px;
+}
+
+.page-header__item:last-child {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.page-header__item {
+  flex: 0 1 80px;
+}
+*/
