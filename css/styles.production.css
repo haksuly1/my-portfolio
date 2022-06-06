@@ -204,7 +204,7 @@ a:active {
 /* Social Section */
 .social {
   padding: 2.5em 0.5em 0.5em;
-  background: #573e9c;
+  background: blue;
 }
 
 .social ul {
@@ -720,7 +720,7 @@ body {
   display: block;
   height: 100px;
   width: 100%;
-  background: #3D0E61;
+  background: blue;
   margin: 0px;
   z-index: 9;
 }
@@ -955,7 +955,7 @@ body {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: blue;
+    background-color: rgb(66, 66, 168)
   }
 
   .intro {
