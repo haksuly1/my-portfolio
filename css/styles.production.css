@@ -707,7 +707,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 80%;
   opacity: 0;
   visibility: hidden;
   transition: opacity .35s, visibility .35s, height .35s;
@@ -768,11 +768,12 @@ body {
   margin: 0px;
   font-family: 'Cabin', Sans-serif;
   background: linear-gradient(to bottom,
-      #61360e, #613c0e 20%,
+      #060605, #050505 20%,
       white 20%, white 40%,
-      #61370e 40%, #61390e 60%,
-      white 60%, white 80%,
-      #613a0e 80%, #61330e 100%);
+      #040303 40%, #060505 60%,
+      white 60%, white 80%
+      /* #613a0e 80%, #61330e 100% */
+    );
 }
 
 #hamburger-menu #sidebar-menu {
@@ -782,7 +783,7 @@ body {
   left: -250px;
   width: 200px;
   height: 100%;
-  background-color: #61390e;
+  background-color: #0c0b09;
   transition: 0.3s;
   padding: 0px 10px;
   box-sizing: border-box;
@@ -790,7 +791,7 @@ body {
 
 #hamburger-menu h3 {
   color: #B9FAF8;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: red;
 }
 
