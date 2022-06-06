@@ -13,22 +13,30 @@
 </head>
 
 <header class="page-header">
-<nav class="navbar">
-    <a href="study.html" class="study">myFlix case-study</a>
+<nav id="main-menu">
+  <ul>
+      <a href="study.html" class="study">myFlix case-study</a>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="work.html">Work</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 
-    <ul class="nav-menu">
-      <li class="nav-item">
-        <a href="index.html" class="nav-link">Home</a></li>
-        <a href="abou.html" class="nav-link">About</a></li>
-        <a href="work.html" class="nav-link">Work</a></li>
-        <a href="contact.html" class="nav-link">Contact</a></li>
+<input type="checkbox" id="hamburger-input" class="burger-shower" />
+<label id="hamburger-menu" for="hamburger-input">
+  <nav id="sidebar-menu">
+    <h3>Menu</h3>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
-    <div class="hamburger">
-      <span class="bar"></span>
-       <span class="bar"></span>
-        <span class="bar"></span>
-    </div>
   </nav>
+  </label>
+
+<div class="overlay"></div>
 </header>
 
 <body>
@@ -54,7 +62,7 @@
       <textarea maxlength="240" id="contact-msg" required></textarea>
       <br>
        <a href="about.html" class="btn btn-more">
-          <span class="btn-text">Send</a>
+          <span class="btn-text">Send message</a>
     </form>
   </main>
 </section>
@@ -62,6 +70,7 @@
 
 
 <!-- Social Section -->
+<footer>
       <section class="social">
         <ul>
           <li>
@@ -81,12 +90,10 @@
               <img src="img/medium_icon.svg" alt="medium icon" /></a>
           </li>
         </ul>
+        <hr>
+        <h6 class="credit">Sulyman Hakeem Kayode &copy; 2021</h6>
+      <a href="index.html"><span class="material-icons arrow-up"> keyboard_arrow_up </span></a>
       </section>
-    </main>
-    <!-- Footer -->
-    <footer id="main-footer">
-      <p class="credit">Sulyman Hakeem Kayode &copy; 2021</p>
-      <a href="#showcase"><span class="material-icons arrow-up"> keyboard_arrow_up </span></a>
     </footer>
     <script src="js/scripts.js"></script>
   </body>
