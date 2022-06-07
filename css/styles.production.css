@@ -511,9 +511,11 @@ a:active {
 #contact p {
   padding: 0;
   margin-bottom: 0.5em;
+  font-size: small;
+  color: #1307f2;
 }
 
-#contact h2 {
+#contact h3 {
   color: blue;
 }
 
