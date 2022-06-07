@@ -494,7 +494,13 @@ a:active {
   color: #24282c;
 }
 
-/* Contact Section */
+
+
+
+
+
+
+
 
 #contact {
   padding: 2em;
@@ -502,16 +508,16 @@ a:active {
   color: black;
 }
 
-.contact-title {
-  color: black;
-}
-
-#contact h1 {
+#contact p {
   padding: 0;
   margin-bottom: 0.5em;
 }
 
-#contact-form {
+#contact h2 {
+  color: blue;
+}
+
+.contact-form {
   background-color: #894be0;
 }
 
@@ -519,31 +525,60 @@ a:active {
   color: #fff;
 }
 
-.email {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+.contact-form {
+  padding: 1em;
+  background: #894be0;
+  color: #0a0909;
+  border-radius: 6px;
+  border: 1px solid #c1c1c1;
+  max-width: 600px;
+  margin: 0px 30%;
+  line-height: 1.5;
 }
 
-.mail-icon {
-  margin-right: 0.2em;
-  padding: 0;
-  color: #fff;
-  font-size: 2em;
+.contact-form input {
+  background: #fff;
+  border: 1px solid #9c9c9c;
+  border-radius: 3px;
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
 }
+
+.contact-form textarea {
+  background: #fff;
+  border: 1px solid #9c9c9c;
+  border-radius: 3px;
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form button {
+  display: inline-block;
+  margin: 0.5em 0;
+  padding: 15px;
+  background: #8048cf;
+  color: #fff;
+  border-radius: 5px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  /*text-transform: uppercase;*/
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+
+
+
+
+
+
+
+
 
 /* Footer */
-
 #main-footer {
   padding: 2em 1em 0.5em;
   border-top: 8px solid #e5676f;
@@ -1075,9 +1110,7 @@ body {
   }
 }
 
-
-
-
+/*
 .contact-details {
   text-align: center;
   margin: 0 auto;
@@ -1133,6 +1166,74 @@ form button {
   color: red;
   font-size: 0.8em;
 }
+*/
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Section */
+/*
+#contact {
+  padding: 2em;
+  background: rgb(243, 240, 240);
+  color: black;
+}
+
+.contact-title {
+  color: black;
+}
+
+#contact h1 {
+  padding: 0;
+  margin-bottom: 0.5em;
+}
+
+#contact-form {
+  background-color: #894be0;
+}
+
+.material-icons.location-icon {
+  color: #fff;
+}
+
+.email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.mail-icon {
+  margin-right: 0.2em;
+  padding: 0;
+  color: #fff;
+  font-size: 2em;
+}
+*/
+
+
+
+
+
+
+
+
 
 
 /*
@@ -1256,7 +1357,6 @@ button {
 
   }
 }
-
 */
 
 
@@ -1621,5 +1721,4 @@ button:focus,
   min-height: 60px;
   background: lightgray;
 }
-
 */
