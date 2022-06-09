@@ -28,7 +28,8 @@ $subject = $_POST['subject'];
 $to = "hakeemkayodesulyman@gmail.com";
 $subject = "Your have received an email from your online contact form";
 $text ="Name = ". $name . "\r\n Email = " . $email . "\r\nTelephone = " .$telephone . "\r\nMessage = " . $message . "\r\nSubject = " . $subject;
-$headers = "From: $email" . "\r\n" <div class="if(email=NULL){
+$headers = "From: $email";
+if($email!=NULL){
   mail($to,$subject.$txt,$headers);
 }
 
