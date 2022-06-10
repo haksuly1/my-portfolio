@@ -510,7 +510,7 @@ a:active {
 
 #contact p {
   padding: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.7em;
   font-size: small;
   color: #1307f2;
 }
@@ -534,7 +534,7 @@ a:active {
   border-radius: 6px;
   border: 1px solid #c1c1c1;
   max-width: 600px;
-  margin: 0px 30%;
+  margin: 0px 20%;
   line-height: 1.5;
 }
 
