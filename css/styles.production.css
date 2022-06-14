@@ -867,17 +867,16 @@ body {
 .thank-you {
   display: grid;
   align-content: center;
-  background-color: greenyellow;
+  background-color: rgb(5, 244, 136);
   top: 0;
   width: 200px;
   height: 100%;
   padding: 0px 10px;
-  margin: 30px 30px 30px 30px;
   box-sizing: border-box;
 }
 
 .thank-you a {
-  color: blue;
+  color: rgb(5, 5, 236);
 }
 
 @media screen and (max-width: 750px) {
